@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1" />
+      <stop offset="100%" style="stop-color:#a855f7" />
+    </linearGradient>
+  </defs>
+  <path d="M256 40
+           L150 100
+           L150 250
+           L256 310
+           L362 250
+           L362 100
+           Z" 
+        fill="url(#gradient)"
+        stroke="#fff"
+        stroke-width="8"
+        stroke-linejoin="round">
+    <animate attributeName="d" 
+             dur="4s" 
+             repeatCount="indefinite"
+             values="
+               M256 40 L150 100 L150 250 L256 310 L362 250 L362 100 Z;
+               M256 60 L170 110 L170 230 L256 290 L342 230 L342 110 Z;
+               M256 40 L150 100 L150 250 L256 310 L362 250 L362 100 Z"
+             calcMode="spline"
+             keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+  </path>
+  <path d="M200 140
+           L200 220
+           L256 255
+           L312 220
+           L312 140
+           L256 175
+           Z" 
+        fill="#fff"
+        stroke="#fff"
+        stroke-width="4"
+        stroke-linejoin="round">
+    <animate attributeName="d" 
+             dur="4s" 
+             repeatCount="indefinite"
+             values="
+               M200 140 L200 220 L256 255 L312 220 L312 140 L256 175 Z;
+               M210 150 L210 210 L256 240 L302 210 L302 150 L256 180 Z;
+               M200 140 L200 220 L256 255 L312 220 L312 140 L256 175 Z"
+             calcMode="spline"
+             keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+  </path>
+</svg>
