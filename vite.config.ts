@@ -2,11 +2,13 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  base: '/Portfolio/', // Remplace "Website" par le nom exact de ton repo GitHub
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
   build: {
+    outDir: 'dist',
     rollupOptions: {
       output: {
         manualChunks: {
@@ -25,5 +27,8 @@ export default defineConfig({
         drop_debugger: true,
       },
     },
+  },
+  server: {
+    port: 3000,
   },
 });
